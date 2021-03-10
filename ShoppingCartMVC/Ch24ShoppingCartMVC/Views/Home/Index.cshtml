@@ -1,0 +1,23 @@
+﻿@{ //INITIALIZE web page title to Shopping Cart
+    ViewBag.Title = "Shopping Cart";
+    string day = DateTime.Now.DayOfWeek.ToString(); }
+@section css {
+    <link href="~/Content/Home.css" rel="stylesheet" />
+
+}
+
+@*<a allign="Left" href="/Home/Index/">Home</a> <hr>
+    <a href="/Home/Contact/">Contact Us</a>*@
+
+
+
+
+<h1 text-align: center;> Welcome to the Halloween Store</h1>
+<div text-align: center ;>Thank you for visiting us this beautiful @day !</div>
+
+
+@section footer {
+
+    <h3>Where every day is Halloween!</h3>
+    
+}
